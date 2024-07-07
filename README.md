@@ -1,6 +1,6 @@
 ## Description
 
-Starter Code for Nest.js Server
+Starter Code for Nest.js Server. Feel free to use the repo for your projects :)
 
 ## Installation
 
