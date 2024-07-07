@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  email-client-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nest-starter
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
